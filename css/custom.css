@@ -156,7 +156,7 @@ section {
 .text {
 	flex: 0 0 calc(30% - 60px);
 	height: calc(100% - 30px);
-    overflow: hidden;
+    overflow-y: hidden;
 	margin: 30px 30px 0;
 }
 
@@ -168,9 +168,6 @@ section {
 	font-family: 'YUniverse';
 	font-weight: 700;
 	transition: all .2s;
-}
-.text h1:hover{
-	transform: scale(1.1, 1.1);
 }
 
 .text h6 {
